@@ -1,0 +1,39 @@
+#include <stdio.h>
+
+int main()
+
+{
+/*int a=5;
+a++;
+printf("%d",a);*/
+
+/*int a=2,b=3,c;
+c=a+b;
+printf("%d",c);*/
+
+
+/*int a=11,b=22,c;
+c=b%a;
+printf("%d",c);*/
+
+
+/*int a=11,b=22,c;
+(a>b)?printf("a is greater"):printf("b is greater than a");*/
+
+/*int a=31,b=22,c;
+(a=b)?printf("true"):printf("false");*/
+
+
+int a=5,b=4;
+if (!(b==4))
+{
+    printf("true");
+    
+}
+else 
+{
+    printf("false");
+}
+
+   return 0;
+}

@@ -1,0 +1,19 @@
+#include <stdio.h>
+int main()
+{
+    int size;
+    printf("enter a size:");
+    scanf("%d",&size);
+    int a[size];
+    printf("enter array elements..\n");
+    for(int i=0;i<size;i++)
+    {
+    scanf("%d",&a[i]);
+    }
+    for(int i=0;i<size;i++)
+    {
+    printf("%d \t",a[i]);
+    }
+
+    return 0;
+}
